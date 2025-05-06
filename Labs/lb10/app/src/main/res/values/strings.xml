@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">lab10</string>
+
+    <!-- Cheia ta AccuWeather -->
+    <string name="accuweather_api_key">AmNXbDWKzq8lmbqMdyekGH7APgWhx6YK</string>
+
+    <string name="hint_city">Introduceți numele orașului</string>
+    <string name="btn_get_weather">Afla vremea</string>
+    <string name="result_placeholder">Rezultat</string>
+
+    <string-array name="days_array">
+        <item>1 zi</item>
+        <item>5 zile</item>
+        <item>10 zile</item>
+    </string-array>
+</resources>
