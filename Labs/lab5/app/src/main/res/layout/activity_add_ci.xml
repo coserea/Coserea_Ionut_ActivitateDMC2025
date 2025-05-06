@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextNume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nume" />
+
+    <EditText
+        android:id="@+id/editTextVarsta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Varsta"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextInaltime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Inaltime"
+        android:inputType="numberDecimal" />
+
+    <CheckBox
+        android:id="@+id/checkBoxCasatorit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Căsătorit?" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioMasculin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masculin" />
+
+        <RadioButton
+            android:id="@+id/radioFeminin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feminin" />
+    </RadioGroup>
+
+    <Button android:id="@+id/buttonDataEmitere"
+        android:text="Alege Data Emitere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/buttonTrimite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trimite" />
+
+</LinearLayout>

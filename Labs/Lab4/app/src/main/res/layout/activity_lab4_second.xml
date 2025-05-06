@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lab4SecondActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main"
+        android:padding="16dp">
+
+        <!-- Titlu carte -->
+        <TextView
+            android:id="@+id/textViewTitlu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Titlu:"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <EditText
+            android:id="@+id/editTextTitlu"
+            android:layout_width="0dp"
+            android:minHeight="48dp"
+            android:layout_height="wrap_content"
+            android:hint="Introdu titlul cartii"
+            app:layout_constraintTop_toBottomOf="@id/textViewTitlu"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <!-- Autor carte -->
+        <TextView
+            android:id="@+id/textViewAutor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Autor:"
+            app:layout_constraintTop_toBottomOf="@id/editTextTitlu"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <EditText
+            android:id="@+id/editTextAutor"
+            android:layout_width="0dp"
+            android:minHeight="48dp"
+            android:layout_height="wrap_content"
+            android:hint="Introdu autorul"
+            app:layout_constraintTop_toBottomOf="@id/textViewAutor"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <!-- An Publicatie -->
+        <TextView
+            android:id="@+id/textViewAnPublicatie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="An Publicatie:"
+            app:layout_constraintTop_toBottomOf="@id/editTextAutor"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <EditText
+            android:id="@+id/editTextAnPublicatie"
+            android:minHeight="48dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Ex: 2023"
+            android:inputType="number"
+            app:layout_constraintTop_toBottomOf="@id/textViewAnPublicatie"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <!-- Numar Pagini -->
+        <TextView
+            android:id="@+id/textViewPagini"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Numar Pagini:"
+            app:layout_constraintTop_toBottomOf="@id/editTextAnPublicatie"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <EditText
+            android:id="@+id/editTextPagini"
+            android:layout_width="0dp"
+            android:minHeight="48dp"
+            android:layout_height="wrap_content"
+            android:hint="Ex: 350"
+            android:inputType="number"
+            app:layout_constraintTop_toBottomOf="@id/textViewPagini"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <!-- CheckBox pentru eBook -->
+        <CheckBox
+            android:id="@+id/checkBoxEbook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Este eBook?"
+            app:layout_constraintTop_toBottomOf="@id/editTextPagini"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <!-- Gen Carte (Spinner) -->
+        <TextView
+            android:id="@+id/textViewGenCarte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gen Carte:"
+            app:layout_constraintTop_toBottomOf="@id/checkBoxEbook"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <Spinner
+            android:id="@+id/spinnerGenCarte"
+            android:minHeight="48dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/textViewGenCarte"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <!-- Buton de trimitere -->
+        <Button
+            android:id="@+id/buttonTrimite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trimite date"
+            app:layout_constraintTop_toBottomOf="@id/spinnerGenCarte"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

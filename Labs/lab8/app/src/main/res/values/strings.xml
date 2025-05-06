@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab8</string>
+    <string name="nume">Nume</string>
+    <string name="v_rst">Vârstă</string>
+    <string name="adaug_student">Adaugă student</string>
+    <string name="afi_eaz_to_i">Afișează toți</string>
+    <string name="cre_te_v_rsta_celor_cu_litera">Crește vârsta celor cu litera...</string>
+</resources>
