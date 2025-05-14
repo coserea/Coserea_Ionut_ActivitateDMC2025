@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Proiect</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="_0_like_uri">0 Like-uri</string>
+    <string name="despre_mine">Despre mine...</string>
+    <string name="gen">Gen</string>
+    <string name="ora">Oraș</string>
+    <string name="nume_utilizator">Nume Utilizator</string>
+    <string name="like">Like</string>
+    <string name="Locatie">📌</string>
+    <string name="autentificare">Autentificare</string>
+    <string name="email">Email</string>
+    <string name="parola">Parola</string>
+    <string name="tine_ma_minte">Tine-ma minte</string>
+    <string name="login">Login</string>
+    <string name="nu_ai_cont_inregistreaza_te_aici">Nu ai cont? Inregistreaza-te aici</string>
+    <string name="incarcare_citat">Incarcare citat...</string>
+    <string name="creeaza_un_cont_nou">Creeaza un cont nou</string>
+    <string name="nume_complet">Nume complet</string>
+    <string name="email_register">Email</string>
+    <string name="parola_register">Parola</string>
+    <string name="selecteaza_locatia_pe_harta">Selecteaza locatia pe harta</string>
+    <string name="locatia_selectata_nealesa">Locatia selectata: nealesa</string>
+    <string name="scrie_cateva_cuvinte_despre_tine">Scrie cateva cuvinte despre tine...</string>
+    <string name="genul_tau">Genul tau</string>
+    <string name="cauti">Cauti</string>
+    <string name="accept_termenii_si_conditiile">Accept termenii si conditiile</string>
+    <string name="inregistreaza_te">Inregistreaza-te</string>
+    <string name="ai_deja_cont_logheaza_te_aici">Ai deja cont? Logheaza-te aici!</string>
+    <string name="distributie_gen">Distributie Gen</string>
+    <string name="distributie_orase">Distributie Orase</string>
+    <string name="distanta_0_km">Distanta: 0 km</string>
+    <string name="oras">Oras</string>
+    <string name="varsta_20_ani">Varsta: 20 ani</string>
+</resources>

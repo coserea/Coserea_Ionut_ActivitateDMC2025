@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab12</string>
+
+    <string-array name="chart_types">
+        <item>PieChart</item>
+        <item>BarChart</item>
+        <item>ColumnChart</item>
+    </string-array>
+
+</resources>
